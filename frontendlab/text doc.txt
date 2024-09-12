@@ -1,0 +1,14 @@
+const handlechnge = (e) => {
+        if (e.target.value === "") {
+            setFriendList(friends)
+        } else {
+            const filteredFriend = frienList.filter((friend) =>
+                friend.name.toLowerCase().startsWith(e.target.value.toLowerCase()))
+            setFriendList(filteredFriend)
+
+        }
+    }
+<div>
+                <label htmlFor="friend">Find your Friend</label>
+                <input type="text" value={searchVal} onChange={handlechnge} />
+            </div>

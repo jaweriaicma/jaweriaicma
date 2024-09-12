@@ -1,0 +1,11 @@
+E:\Shoaib File\September\12 September 2024\server>git config --global --unset user.name
+
+E:\Shoaib File\September\12 September 2024\server>git config --global --unset user.email
+
+E:\Shoaib File\September\12 September 2024\server>git config --global --unset-all user.name
+
+E:\Shoaib File\September\12 September 2024\server>git config --list
+
+https://stackoverflow.com/questions/11868447/how-can-i-remove-an-entry-in-global-configuration-with-git-config
+
+https://stackoverflow.com/questions/46941346/how-to-know-the-git-username-and-email-saved-during-configuration
